@@ -56,7 +56,16 @@ class ViewController: UIViewController {
         self.secondCardImageView.image = UIImage(named: secondCardString)
         self.secondCardImageView.image = UIImage(named: secondCardString)
         
-        
+        //Determine the higher card 
+        if firstRandomNumber > secondRandomNumber {
+            //TODO: first card is larger
+        }
+        else if firstRandomNumber == secondRandomNumber {
+            //TODO: equal
+        }
+        else {
+            //TODO: second card is larger
+        }
     }
 }
 
